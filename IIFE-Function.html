@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIFE Function</title>
+</head>
+
+<body>
+    <script>
+        let number = toString(("Enter a number:"));
+        let rem = 0;
+        for (let i = 2; i <= number; i++) {
+            if (number % i == 0) {
+                rem++;
+            }
+
+        }
+        if (rem === 0) {
+            console.log("Prime number.")
+        } else (
+            document.writeln("Not a prime number.")
+        )
+
+    </script>
+</body>
+
+</html>
